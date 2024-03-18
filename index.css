@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #969798;
+    font-family: Impact, fantasy;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 35px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+}
+
+input {
+    text-align: center;
+    border-radius: 5px;
+    border: 5px;
+}
+
+.name {
+    color: #ffc800;
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f9fa;
+    font-size: 40px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.présentation {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.services article
+{   
+    max-width: 300px;
+}
+
+h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+}
+
+.image1 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    #placement a {
+    padding: 10px;
+    display: block;
+}
+}

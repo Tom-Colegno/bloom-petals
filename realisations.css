@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #969798;
+    font-family: Impact, fantasy;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 35px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+}
+
+input {
+    text-align: center;
+    border-radius: 5px;
+    border: 5px;
+}
+
+.name {
+    color: #ffc800;
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f9fa;
+    font-size: 40px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.image-mosaic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.image-mosaic img {
+    width:auto;
+    height: auto;
+    margin: 25px;
+    border-radius: 50px;
+}
+  
+@media  {
+    .image-mosaic img {
+        width: 20%;
+        height: 30%;
+        
+    }
+}
+
+h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+    text-align: center;
+}

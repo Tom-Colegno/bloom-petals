@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="contact.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <nav>
+            <a href="index.html">🌹 Home</a>
+            <a href="entreprise.html">🌸 Entreprise</a>
+            <a href="realisations.html">💐 Réalisations</a>
+            <a href="contact.html">🌺 Contact</a>
+        </nav>
+        <input type="search" placeholder="Rechercher" name="Rechercher">
+    
+    </div>
+    </header>
+    <div class="name">
+        <h1>BloomPetals</h1>
+    </div>
+    <div class="container">
+      <h1>Formulaire de contact</h1>
+      <label for="salutation">Civilité:</label>
+      <select id="salutation" name="salutation">
+        <option value="mr">Mr.</option>
+        <option value="mrs">Mme.</option>
+        <option value="miss">Mlle.</option>
+      </select>
+        <label for="fname">Nom Prénom</label>
+        <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+        <label for="sujet">Adresse</label>
+        <input type="text" id="sujet" name="sujet" placeholder="Votre adresse postale">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+        <input type="submit" value="Envoyer">
+        <input type="checkbox" id="privacy_policy" name="privacy_policy" value="agree" required>
+        <label for="privacy_policy">I agree to the privacy policy.</label>
+        <br><br>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
